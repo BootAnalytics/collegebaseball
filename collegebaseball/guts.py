@@ -48,7 +48,7 @@ def get_seasons_path():
     """
     """
     with resources.path("collegebaseball.data",
-                        "seasons.csv") as f:
+                        "seasons.parquet") as f:
         data_file_path = f
     return data_file_path
 
